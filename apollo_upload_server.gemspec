@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'actionpack', '>= 6.1.6'
-  spec.add_dependency 'graphql', '>= 1.8'
+  spec.add_dependency 'graphql', '>= 2.4.13'
 
   spec.add_development_dependency 'bundler', '~> 2.1'
   spec.add_development_dependency 'rake', '~> 13.0'
