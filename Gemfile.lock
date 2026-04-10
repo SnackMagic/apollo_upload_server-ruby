@@ -26,14 +26,20 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    base64 (0.3.0)
     builder (3.2.4)
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     diff-lcs (1.5.0)
     erubi (1.12.0)
-    graphql (2.0.26)
+    fiber-storage (1.0.1)
+    graphql (2.5.23)
+      base64
+      fiber-storage
+      logger
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
+    logger (1.7.0)
     loofah (2.21.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -80,4 +86,4 @@ DEPENDENCIES
   rspec (~> 3.11)
 
 BUNDLED WITH
-   2.3.25
+   2.3.17
